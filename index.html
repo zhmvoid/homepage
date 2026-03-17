@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPEED LEGEND</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 右上角按钮 -->
+    <div class="top-right-btn">
+        <a href="pages/personal.html" class="enter-btn">Enter my page</a>
+    </div>
+
+    <div class="scroll-hint">
+        <img src="images/logo.png" alt="F1 Logo" class="hint-logo">
+        <p class="hint-text">Scroll down and start the engine ↓</p>
+    </div>
+
+    <!-- 新页面揭示层：随着赛车移动逐渐显示 -->
+    <div class="reveal-section" id="revealSection">
+        <div class="reveal-content">
+            <h2>SPEED LEGEND</h2>
+            <a href="pages/personal.html" class="enter-btn">Enter my page</a>
+        </div>
+    </div>
+
+    <div class="car-container" id="carContainer">
+        <img src="images/car-body.png" alt="Ferrari Body" class="car-body">
+        <img src="images/wheel-rear.png" alt="Rear Wheel" class="wheel rear-wheel" id="rearWheel">
+        <img src="images/wheel-front.png" alt="Front Wheel" class="wheel front-wheel" id="frontWheel">
+        <!-- 倒影 -->
+        <!-- 
+        <img src="images/car-body.png" alt="Ferrari Reflection" class="car-reflection" id="carReflection">
+        <img src="images/wheel-rear.png" alt="Rear Wheel Reflection" class="wheel-reflection rear-wheel-reflection" id="rearWheelReflection">
+        <img src="images/wheel-front.png" alt="Front Wheel Reflection" class="wheel-reflection front-wheel-reflection" id="frontWheelReflection">
+         -->
+
+    </div>
+
+    <div class="scroll-space"></div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
