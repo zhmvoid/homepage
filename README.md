@@ -61,8 +61,6 @@ homepage/
 
 ## 👨‍💻 关于作者
 
-- **主理人**: 张恒茂 (Driver Zhuanz)
-- **身份**: 东南大学 计算机科学与技术 本科生 | 预备党员
 - **GitHub**: [@zhmvoid](https://github.com/zhmvoid)
 - **Email**: [hengmao.zh@outlook.com](mailto:hengmao.zh@outlook.com)
 
