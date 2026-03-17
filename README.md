@@ -34,8 +34,8 @@
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/zhmvoid/myhomepage.git
-   cd myhomepage
+   git clone https://github.com/zhmvoid/homepage.git
+   cd homepage
    ```
 2. **预览页面**
    直接用任意现代浏览器（推荐 Chrome / Edge）双击打开根目录下的 `index.html`。
@@ -44,7 +44,7 @@
 ## 📁 目录结构
 
 ```text
-myhomepage/
+homepage/
 ├── index.html              # F1 动态滚动引导页
 ├── pages/
 │   └── personal.html       # 个人主页与在线简历容器
